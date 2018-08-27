@@ -4,7 +4,7 @@
 ## Information
 - Monday and Wednesday, 12:00 pm - 1:15 pm in Innovation Hall 134
 - [Course HomePage](https://github.com/jmlien/CS425-2018)
-- [Lecture schedule]
+- [Lecture schedule](lectures)
 - [Syllabus](https://cs.gmu.edu/media/syllabi/Fall2018/CS_425LienJ001.html)
 
 ## Instructor
