@@ -1,4 +1,4 @@
 # Lectures
 
-- Aug 27, introduction, syllabus (pdf)
+- **Aug 27**: introduction, syllabus (pdf)
 
