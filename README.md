@@ -18,6 +18,7 @@
 - Coming soon.
 
 ## Useful links
+- [OGRE graphics engine](https://www.ogre3d.org/) and its github repository https://github.com/OGRECave/ogre
 - [Sylvester Matrix/Vector js code](http://sylvester.jcoglan.com/)
 - http://soundbible.com/
 - http://opengameart.org/
