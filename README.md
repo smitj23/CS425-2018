@@ -18,6 +18,7 @@
 - Coming soon.
 
 ## Useful links
+- [OGRE graphics engine](https://www.ogre3d.org/)
 - [Sylvester Matrix/Vector js code](http://sylvester.jcoglan.com/)
 - http://soundbible.com/
 - http://opengameart.org/
