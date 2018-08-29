@@ -1,5 +1,5 @@
 # Lectures
 
 - **Aug 27**: introduction, syllabus [(pdf)](01-overview.pdf)
-- **Aug 29**: OGRE (Object-Oriented Graphics Rendering Engine) [(pdf)](02-OGRE.pdf)
+- **Aug 29**: OGRE (Object-Oriented Graphics Rendering Engine) [(pdf)](02-OGRE.pdf) [ex01](CS425App-01-Tutorial 1.zip) [ex02](CS425App-02-Simple Scene.zip)
 
