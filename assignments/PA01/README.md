@@ -29,5 +29,5 @@ Create a program so that the charactor follows a list of randomly generately way
 - You are free to use your own mesh and animations, as long as it uses two animation clips, namely running and stopping, and both OGRE and Unity should use the same charactor.
 
 ## How to Submit:
-1. For the OGRE project, remove "build" fold and zip everything else (including CMakeLists.txt) into your_gmu_id_PA1.zip, e.g., jsmith_PA1.zip, and submit it through Blackboard by the due date.
-2. For the Unity project, video capture the screen showing the animation in mp4 format, and save it as your_gmu_id_PA1.mp4 (mp4, m4a, m4v, ...) and submit it through Blackboard by the due date.
+1. For the OGRE part, remove "build" fold and zip everything else (including CMakeLists.txt) into your_gmu_id_PA1.zip, e.g., jsmith_PA1.zip, and submit it through Blackboard by the due date.
+2. For the Unity part, video capture the screen showing the animation in mp4 format, and save it as your_gmu_id_PA1.mp4 (mp4, m4a, m4v, ...) and submit it through Blackboard by the due date.
