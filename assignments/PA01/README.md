@@ -13,8 +13,8 @@ Create a program so that the charactor follows a list of randomly generately way
 ### OGRE Tasks:
 1. Read Agent.cpp/h. 
    - The Agent.cpp/h code provided includes the required variables and method declarations in the Agent class. Use it to setup your charactor. 
+   - The Agent constructor includes a for loop that adds 10 waypoints onto the agent’s mWalkList.
    - The update method of the Agent class includes the necessary call to updateLocomote
-   - The Agent constructor includes a for loop that adds a few random points onto the agent’s mWalkList.
 2. You will need to fill in code for the nextLocation and updateLocomotion methods of the Agent class.
 3. While moving between the points, the character should display the run animation (top and base) and be properly oriented.
 4. After the character reaches the last point, it should automatically switch to the idle animation (top and base) and continue displaying this idle behavior.
