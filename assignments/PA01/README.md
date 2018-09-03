@@ -1,8 +1,6 @@
-# CS425 Game Programming 1
-# Homework Assignment 1
-# Movin’
-## Due: September 16th (Sunday) 2018 at 11:59 pm
+# CS425 Programming Assignment 1: Movin’
 
+## Due: September 16th (Sunday) 2018 at 11:59 pm
 
 ## Objective:
 
