@@ -21,7 +21,7 @@ Create a program so that the charactor follows a list of randomly generately way
 5. Your character should NOT keep looping between the points.
 
 ### Unity Tasks:
-1. Create a unity project that demonstrates the same charactor and animations as your OGRE program. It is fine that the waypoints are different from OGRE's waypoints. This means you must have
+1. Create a Unity project that demonstrates the same charactor and animations as your OGRE program. It is fine that the waypoints are different from OGRE's waypoints. This means you must have
     - A charactor following a list of 10 randomly created waypoints
     - The charactor must be displaying running and stopping animations.
 
