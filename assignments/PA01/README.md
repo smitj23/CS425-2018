@@ -11,14 +11,15 @@ Understand the basics of animating a game character, including playing back anim
 Create a program so that the charactor follows a list of randomly generately waypoints. As the charactor walks or stops, the corresponding animation clips should be used. Please remember that this is an individual programming assignment. 
 
 ### OGRE Tasks (70 pts):
-1. Read Agent.cpp/h. 
+1. Read pa01.cpp/h. **There is a task and 10 pts in this file**
+2. Read Agent.cpp/h. **There are 3 tasks and 60 pts in this file**
    - The Agent.cpp/h code provided includes the required variables and method declarations in the Agent class. Use it to setup your charactor. 
    - The Agent constructor includes a for loop that adds 10 waypoints onto the agent’s mWalkList.
    - The update method of the Agent class includes the necessary call to updateLocomote
-2. You will need to fill in code for the nextLocation and updateLocomotion methods of the Agent class.
-3. While moving between the points, the character should display the run animation (top and base) and be properly oriented.
-4. After the character reaches the last point, it should automatically switch to the idle animation (top and base) and continue displaying this idle behavior.
-5. Your character should NOT keep looping between the points.
+3. You will need to fill in code for the **updateLocomotion method** of the Agent class.
+4. While moving between the points, the character should display the run animation (top and base) and be properly oriented.
+5. After the character reaches the last point, it should automatically switch to the idle animation (top and base) and continue displaying this idle behavior.
+6. Your character should NOT keep looping between the points.
 
 ### Unity Tasks (30 pts):
 1. Create a Unity project that demonstrates the same charactor and animations as your OGRE program. It is fine that the waypoints are different from OGRE's waypoints. This means you must have
