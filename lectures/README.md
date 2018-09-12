@@ -9,7 +9,7 @@
   - Exercise 3: Convert [(ex02)](CS425App-02-Simple%20Scene.zip) to the current version of OGRE (1.11)
 - **Sep 5**: Resouce Management [(pdf)](03-Level%20Loading.pdf)
 - **Sep 10**: Scene Management, Octree, BSP, K-D tree, Range tree [(pdf)](04-Scene-Management.pdf)
-- **Sep 12**: Level loading Sample Code [(zip)](05-Level%20Loading.zip) (with OGRE 1.11)
+- **Sep 12**: Level loading Sample Code [(zip)](05-Level%20Loading.zip) (using OGRE 1.11)
   - Exercise 1: Create a level (perhaps of a level of your final project, your room, a classroom, outdoor/indoor scenes, etc)
   - Exercise 2: Extend the code so it includes other types of objects (e.g., passable areas)
   - Exercise 3: (More challenging) Add a visual editor
