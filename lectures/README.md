@@ -1,5 +1,7 @@
 # Lectures
 
+## Part 1: Game Engine, Game Resouces & Scenes, Modelings
+
 - **Aug 27**: introduction, syllabus [(pdf)](01-overview.pdf)
 - **Aug 29**: OGRE (Object-Oriented Graphics Rendering Engine) [(pdf)](02-OGRE.pdf), code (zip files): [(ex01)](CS425App-01-Tutorial%201.zip) [(ex02)](CS425App-02-Simple%20Scene.zip)
   - Exercise 1: Build three inidividual executables from https://github.com/OGRECave/ogre/tree/master/Samples/Tutorials
@@ -11,3 +13,8 @@
   - Exercise 1: Create a level (perhaps of a level of your final project, your room, a classroom, outdoor/indoor scenes, etc)
   - Exercise 2: Extend the code so it includes other types of objects (e.g., passable areas)
   - Exercise 3: (More challenging) Add a visual editor
+
+## Part 2: Motion, Animation, Physically-based simuation
+
+## Part 3: Game AI
+
