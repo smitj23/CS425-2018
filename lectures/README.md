@@ -13,6 +13,7 @@
   - Exercise 1: Create a level (perhaps of a level of your final project, your room, a classroom, outdoor/indoor scenes, etc)
   - Exercise 2: Extend the code so it includes other types of objects (e.g., passable areas)
   - Exercise 3: (More challenging) Add a visual editor or replace the map with a bitmap or tile map
+- **Sep 17**: Procedural Modeling, terrain, L-systems, fractals, City Engine system [(pdf)](05-Procedural-Modeling.pdf)
 
 ## Part 2: Motion, Animation, Physically-based simuation
 
