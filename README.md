@@ -12,7 +12,7 @@
 - [Jyh-Ming Lien](http://cs.gmu.edu/~jmlien)
 - jmlien@cs.gmu.edu
 - Office: ENGR 4442
-- Office hours: See instructor's webpage
+- Office hours: See [instructor's webpage](http://cs.gmu.edu/~jmlien)
 
 ## Programming assignments
 - Coming soon.
