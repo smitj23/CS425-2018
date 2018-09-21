@@ -19,6 +19,9 @@
 
 ## Useful links
 - [OGRE graphics engine](https://www.ogre3d.org/) and its github repository https://github.com/OGRECave/ogre
+  - [OGRE 3D 1.7 Application Development Cookbook](http://proquest.safaribooksonline.com/book/animation-and-3d/9781849514569)
+    - Outdated but provides some basic design flow and code structure of OGRE
+  - https://github.com/southerlies/OGRE-3D-1.7-Application-Development-Cookbook-Code
 - [Sylvester Matrix/Vector js code](http://sylvester.jcoglan.com/)
 - http://soundbible.com/
 - http://opengameart.org/
