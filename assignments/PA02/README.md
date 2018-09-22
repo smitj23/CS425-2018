@@ -29,6 +29,7 @@ Please remember that this is an individual programming assignment.
 - Add a user-controlled character and make sure that it cannot penetrate through objects and moving agents. 
 
 ### Notes:
+- You are allowed to add new data members and methods to all classes. 
 - With bonus, the total points of this assignment is 120.
 
 ## How to Submit:
