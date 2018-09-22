@@ -19,6 +19,7 @@ Please remember that this is an individual programming assignment.
 ### OGRE Tasks (70 pts + 20 bonus pts):
 
 - Create a level that is at least 50x50; (10 pts)
+  - You can reuse your level from exercise if it is already 50x50.
 - Modify the code so that the agents can keep moving to randomly generated waypoints without stopping. (10 pts)
 - Use Grid class to detect if the user-controlled ogre overlaps with an object or a moving agent. You need to make sure that the cells occupied by the moving agents are correctly marked. (30 pts)
 - Modify the code so that, the user-controlled ogre will not move into a cell that would cause collision. (20 pts)
