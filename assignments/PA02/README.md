@@ -15,7 +15,7 @@ Also modify the code so that the agents keep moving to randomly generated waypoi
 
 Please remember that this is an individual programming assignment. 
 
-### OGRE Tasks (70 pts):
+### OGRE Tasks (70 pts + 20 bonus pts):
 
 - Create a level that is at least 50x50; (10 pts)
 - Modify the code so that the agents can keep moving to randomly generated waypoints without stopping. (10 pts)
@@ -28,6 +28,7 @@ Please remember that this is an individual programming assignment.
 - Add a user-controlled character and make sure that it cannot penetrate through objects and moving agents. 
 
 ### Notes:
+- With bonus, the total points of this assignment is 120.
 
 ## How to Submit:
 1. For the OGRE part, submit all source code (*h, *cpp and CMakeLists.txt);  do not include the "build" folder  or the "sdk" folder
