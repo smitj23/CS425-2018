@@ -4,8 +4,9 @@
 
 ## Objective:
 
-Learn how to create a level populated with static and dynamic objects and load the level into the game.
-Use a grid-based scene manager to detect the proximity of the objects and characters in the scene. Learn how collision detection is done in OGRE. 
+1. Learn how to create a level populated with static and dynamic objects and load the level into the game.
+2. Use a grid-based scene manager to detect the proximity of the objects and characters in the scene. 
+3. Learn how collision detection is done in OGRE. 
 
 ## Tasks:
 
