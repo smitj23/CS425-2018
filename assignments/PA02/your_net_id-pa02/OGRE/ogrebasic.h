@@ -1,3 +1,6 @@
+
+//modified 9/26/2018 add GUI
+
 #pragma once
 
 //ogre
@@ -8,6 +11,9 @@
 #include <OgreCameraMan.h>
 #include <OgreTrays.h>
 #include <OgreAdvancedRenderControls.h>
+
+#include <iostream>
+using namespace std;
 
 using namespace Ogre;
 using namespace OgreBites;
@@ -40,7 +46,12 @@ public:
 
 		// get a pointer to the already created root
 		Root* root = getRoot();
+		
+
 		m_Scene_Mgr = root->createSceneManager();
+
+		//this is necessary to view OGRE tray GUI...
+		m_Scene_Mgr->addRenderQueueListener(mOverlaySystem);
 
 		// register our scene with the RTSS
 		RTShader::ShaderGenerator* shadergen = RTShader::ShaderGenerator::getSingletonPtr();
@@ -56,6 +67,7 @@ public:
 		lightNode->attachObject(light);
 		lightNode->setPosition(20, 180, 50);
 
+
 		//! [camera]
 		this->m_Camera_Node = m_Scene_Mgr->getRootSceneNode()->createChildSceneNode();
 
@@ -68,20 +80,41 @@ public:
 		this->m_Camera_Node->setPosition(0, 150, 222);
 
 		// and tell it to render into the main window
-		getRenderWindow()->addViewport(m_Camera);
+		getRenderWindow()->addViewport(m_Camera);	
 
 		//create camera man
 		this->m_Camera_Man = new OgreBites::CameraMan(this->m_Camera_Node);
 
-		// create tray manager and show stats and logo and hide the cursor
+		// create tray manager and show stats and logo and (hide the cursor)
 		m_Tray_Mgr = new OgreBites::TrayManager("Controls", getRenderWindow(), this);  // create a tray interface
 		m_Tray_Mgr->showFrameStats(TL_BOTTOMLEFT);
 		m_Tray_Mgr->showLogo(TL_BOTTOMRIGHT);
-		m_Tray_Mgr->hideCursor();
+		//m_Tray_Mgr->hideCursor();
+		m_Tray_Mgr->setListener(this);
+
+		Button* b = m_Tray_Mgr->createButton(TL_TOPLEFT, "MyButton", "Click Me!");
 
 		m_Controls = new AdvancedRenderControls(m_Tray_Mgr, m_Camera);
 	}
 
+	virtual void buttonHit(Button* button) override
+	{
+		cout << "button hit = "<< button->getCaption() << endl;
+	}
+
+	void loadResources()
+	{
+		Ogre::ResourceGroupManager::getSingleton().initialiseResourceGroup("Essential");
+		m_Tray_Mgr = new TrayManager("BrowserControls", getRenderWindow(), this);
+		m_Tray_Mgr->showBackdrop("SdkTrays/Bands");
+		m_Tray_Mgr->getTrayContainer(TL_NONE)->hide();
+		createDummyScene();
+		m_Tray_Mgr->showLoadingBar(1, 0);
+		ApplicationContext::loadResources();
+		m_Tray_Mgr->hideLoadingBar();
+		destroyDummyScene();
+		delete m_Tray_Mgr;
+	}
 
 	bool keyPressed(const KeyboardEvent& evt) override
 	{
@@ -135,6 +168,7 @@ public:
 
 	virtual bool frameRenderingQueued(const Ogre::FrameEvent& evt)
 	{
+
 		m_Tray_Mgr->frameRendered(evt);
 		m_Controls->frameRendered(evt);
 
@@ -156,7 +190,10 @@ public:
 
 	virtual bool mousePressed(const MouseButtonEvent& evt)
 	{
-		if (m_Tray_Mgr->mousePressed(evt)) return true;
+		if (m_Tray_Mgr->mousePressed(evt)) {
+			cout << "m_Tray_Mgr handled event " <<evt.type << endl;
+			return true;
+		}
 
 		if (m_DragLook && evt.button == BUTTON_LEFT)
 		{
@@ -192,6 +229,10 @@ public:
 	virtual bool mouseWheelRolled(const MouseWheelEvent& evt) {
 		m_Camera_Man->mouseWheelRolled(evt);
 		return true;
+	}
+
+	virtual void windowResized(Ogre::RenderWindow* rw) {
+		cout << "window resized w="<< rw->getWidth()<<" h="<< rw->getHeight() << endl;
 	}
 
 protected:
