@@ -92,14 +92,12 @@ public:
 		//m_Tray_Mgr->hideCursor();
 		m_Tray_Mgr->setListener(this);
 
-		Button* b = m_Tray_Mgr->createButton(TL_TOPLEFT, "MyButton", "Click Me!");
-
 		m_Controls = new AdvancedRenderControls(m_Tray_Mgr, m_Camera);
 	}
 
 	virtual void buttonHit(Button* button) override
 	{
-		cout << "button hit = "<< button->getCaption() << endl;
+        //do nothing
 	}
 
 	void loadResources()
