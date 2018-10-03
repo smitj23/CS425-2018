@@ -16,6 +16,7 @@
 - **Sep 17**: Procedural Modeling, terrain, L-systems, fractals, City Engine system [(pdf)](06-Procedural-modeling.pdf)
 - **Sep 24**: Procedural content, game play [(pdf)](07-procedural-content.pdf)
 - **Sep 27**: Human input device [(pdf)](08-HID.pdf)
+  - [How Sony Created The Perfect Video Game Controller](https://www.youtube.com/watch?v=3Hm9924cvLI)
 
 ## Part 2: Motion, Animation, Physically-based simuation
 
