@@ -1,6 +1,6 @@
 # CS425 Programming Assignment 3: Physics Engine #1
 
-## Due: Oct. 19th (Sat.) 2018 at 11:59 pm
+## Due: Oct. 21st (Sun.) 2018 at 11:59 pm
 
 ## Objective:
 
