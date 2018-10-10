@@ -19,8 +19,8 @@
   - [How Sony Created The Perfect Video Game Controller](https://www.youtube.com/watch?v=3Hm9924cvLI)
 
 ## Part 2: Motion, Animation, Physically-based simuation
-- **Oct 3**: Introduction to particle system
-- **Oct 10**: ODE Solvers
+- **Oct 3**: Introduction to particle system [(pdf)](09-particle-sys.pdf)
+- **Oct 10**: ODE Solvers, Euler's method, Runge-Kutta 2nd~4th order methods, mid-point method [(pdf)](10-ODE.pdf)
 
 ## Part 3: Game AI
 
