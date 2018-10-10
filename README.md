@@ -15,7 +15,7 @@
 - Office hours: See [instructor's webpage](http://cs.gmu.edu/~jmlien)
 
 ## Programming assignments
-- Coming soon.
+- see [assignments](assignments)
 
 ## Useful links
 - [OGRE graphics engine](https://www.ogre3d.org/) and its github repository https://github.com/OGRECave/ogre
