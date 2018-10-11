@@ -8,64 +8,75 @@
 
 struct MyParticle
 {
-    Ogre::Vector3 x; //position
-    Ogre::Vector3 v; //linear velocity
-    double m;    //mass
+	MyParticle() {
+		m = 1;  
+		restitution_coefficient = 0.5; 
+		node= NULL;
+	}
+
+	Ogre::Vector3 x; //position
+	Ogre::Vector3 v; //linear velocity
+	double m;    //mass
+	double restitution_coefficient; 
+	Ogre::SceneNode * node;
 };
 
 //the base class
 class MyParticlePhysicsEngineBase
 {
-    public:
+public:
 
-	  	//h is the simulation step size
-	  	MyParticlePhysicsEngineBase(double h):m_h(h){ }
+	//h is the simulation step size
+	MyParticlePhysicsEngineBase(double h) :m_h(h) { }
 
-       //create your partciles here and add the MyParticles in
-       //OGRE for visualization
-       virtual void SetupEnv()=0;
+	//create your partciles here and add the MyParticles in
+	//OGRE for visualization
+	virtual void SetupEnv();
 
-       //step the simulation forward
-       virtual bool Step(double time)=0;
+	//step the simulation forward
+	virtual bool Step(double time) = 0;
 
-       //access functions
-       void addSceneManager(Ogre::SceneManager * sm) { m_Scene_Mgr=sm; }
+	//access functions
+	void addSceneManager(Ogre::SceneManager * sm) { m_Scene_Mgr = sm; }
 
-    protected:
+protected:
 
-       //compute force for each MyParticle
-       virtual void ApplyForce(std::vector<Ogre::Vector3> & forces)=0;
+	//compute force for each MyParticle
+	virtual void ApplyForce(std::vector<Ogre::Vector3> & forces) = 0;
 
-       //compute the derivative for each MyParticle from the given force
-       //input: forces
-       //output: dx, dv
-       virtual void ComputeDerivative(const std::vector<Ogre::Vector3> & forces,
-                                            std::vector<Ogre::Vector3> & dx,
-                                            std::vector<Ogre::Vector3> & dv)=0;
+	//compute the derivative for each MyParticle from the given force
+	//input: forces
+	//output: dx, dv
+	virtual void ComputeDerivative(const std::vector<Ogre::Vector3> & forces,
+		std::vector<Ogre::Vector3> & dx,
+		std::vector<Ogre::Vector3> & dv) = 0;
 
-       //compute the new states of the MyParticle
-       //output: new position and new velocity nx & nv
-       virtual void SolveODE(std::vector<Ogre::Vector3> & nx, std::vector<Ogre::Vector3> & nv)=0;
+	//compute the new states of the MyParticle
+	//output: new position and new velocity nx & nv
+	virtual void SolveODE(std::vector<Ogre::Vector3> & nx, std::vector<Ogre::Vector3> & nv) = 0;
 
-       //check for collision
-	     virtual bool isCollision(const Ogre::Vector3& x, const Ogre::Vector3& nx)=0;
+	//check for collision
+	virtual bool isCollision(const MyParticle& p, const Ogre::Vector3& x, const Ogre::Vector3& nx) = 0;
 
-       //
-       //compute collision response of a single MyParticle
-       //input: a partcile p and simulation time
-       //
-       //return: remaining time
-       //
-       virtual double CollisionResponse(const MyParticle& p, double step, Ogre::Vector3& nx, Ogre::Vector3& nv) = 0 ;
+	//
+	//compute collision response of a single MyParticle
+	//input: a partcile p and simulation time
+	//
+	//return: remaining time
+	//
+	virtual double CollisionResponse(const MyParticle& p, double step, Ogre::Vector3& nx, Ogre::Vector3& nv) = 0;
 
-       //MyParticles
-       std::list<MyParticle*> m_MyParticles;
+	//MyParticles
+	std::list<MyParticle*> m_MyParticles;
 
-	     //step size
-	     double m_h;
+	//step size
+	double m_h;
 
-       //
-	   Ogre::SceneManager * m_Scene_Mgr;
+	//
+	Ogre::SceneManager * m_Scene_Mgr;
+
+	//all obstacles in the world
+	std::list< std::pair<Ogre::SceneNode *, Ogre::Entity *> > m_all_obstacles;
 };
 
 
@@ -75,7 +86,7 @@ class BallPhysicsEngine : public MyParticlePhysicsEngineBase
 public:
 
 	//h is the simulation step size
-	BallPhysicsEngine(double h): MyParticlePhysicsEngineBase(h) { }
+	BallPhysicsEngine(double h) : MyParticlePhysicsEngineBase(h) { }
 
 	//add a ball to the system
 	//input: initial position and velocity and radius and its life span
@@ -105,7 +116,7 @@ protected:
 	virtual void SolveODE(std::vector<Ogre::Vector3> & nx, std::vector<Ogre::Vector3> & nv) override;
 
 	//check for collision
-	virtual bool isCollision(const Ogre::Vector3& x, const Ogre::Vector3& nx) override;
+	virtual bool isCollision(const MyParticle& p, const Ogre::Vector3& x, const Ogre::Vector3& nx) override;
 
 	//
 	//compute collision response of a single MyParticle
@@ -161,7 +172,7 @@ protected:
 	virtual void SolveODE(std::vector<Ogre::Vector3> & nx, std::vector<Ogre::Vector3> & nv) override;
 
 	//check for collision
-	virtual bool isCollision(const Ogre::Vector3& x, const Ogre::Vector3& nx) override;
+	virtual bool isCollision(const MyParticle& p, const Ogre::Vector3& x, const Ogre::Vector3& nx) override;
 
 	//
 	//compute collision response of a single MyParticle

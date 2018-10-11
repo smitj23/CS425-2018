@@ -24,6 +24,9 @@ public:
 		LevelLoading::setup();
 		m_Camera_Man->setStyle(CS_MANUAL); //disable camera
 		mChara = new SinbadCharacterController(this->m_Camera, this->m_grid);
+
+
+		//get all necessary geometries from OGRE
 		mBallPhy->addSceneManager(this->m_Scene_Mgr);
 		mBallPhy->SetupEnv();
 

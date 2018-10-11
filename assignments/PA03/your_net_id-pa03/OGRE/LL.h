@@ -18,7 +18,7 @@ public:
 
 	Grid * m_grid;
 
-	LevelLoading(const std::string & filename) : OgreBasic("CS425")
+	LevelLoading(const std::string & filename) : OgreBasic("CS425 PA03")
 	{
 		m_level_filename = filename;
 		m_grid = NULL;

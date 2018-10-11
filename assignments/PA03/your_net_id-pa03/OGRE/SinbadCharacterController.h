@@ -156,6 +156,9 @@ private:
     {
         // create main model
         mBodyNode = sceneMgr->getRootSceneNode()->createChildSceneNode(Vector3::UNIT_Y * CHAR_HEIGHT);
+
+		//mBodyNode->showBoundingBox(true);
+
         mBodyEnt = sceneMgr->createEntity("SinbadBody", "Sinbad.mesh");
         mBodyNode->attachObject(mBodyEnt);
 
