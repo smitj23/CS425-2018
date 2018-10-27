@@ -13,16 +13,18 @@ In this assignment, you will be controlling an ogre like what you did in PA02. T
 
 The main tasks include the implementation of two particle systems, one for bouncy balls and the other one for deformable tetrahedra. The underlying machenism of both systems is very similar but there are also many subtle differences. Details are listed below.
 
-### OGRE Tasks (70%):
+### OGRE Tasks (100%):
 
 1. Implement MassSpringPhysicsEngine class (90%)
+  - Create tetrahedra (20%)
+  - ApplyForce (20%)
+  - Implement Midpoint method or Runge-Kutta 3rd Order method (30%)
+  - Step (20%)
 2. Add OGRE particles for explosion effects for tetrahedra and kill nearby agents (10%)
 
-### Unity Tasks (30% + 10% bonus):
+### Unity Tasks (10% bonus):
 
-1. Extend your Unity game from PA03 so the charactor can shoot out tetrahedra. The tetrahedra should bounce off the floor and obstacles. The tetrahedra should also explode after the timer expires and kill all nearby agent within a user defined range (excluding the ogre itself). (100%)
-
-2. Further extend your Unity game from PA03 to include explosive deformable tetrahedra (10% bonus)
+1. Extend your Unity game from PA03 so the charactor can shoot out tetrahedra. The tetrahedra should bounce off the floor and obstacles. The tetrahedra should also explode after the timer expires and kill all nearby agent within a user defined range (excluding the ogre itself). (10%)
 
 ### Notes:
 
