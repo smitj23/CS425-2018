@@ -21,6 +21,10 @@
 ## Part 2: Motion, Animation, Physically-based simuation
 - **Oct 3**: Introduction to particle system [(pdf)](09-particle-sys.pdf)
 - **Oct 9 & 10**: ODE Solvers, Euler's method, Runge-Kutta 2nd~4th order methods, mid-point method [(pdf)](10-ODE.pdf)
+- **Oct 15 & 17**: Rigid-body simulation: Part 1 [(pdf)](notesd1.pdf) by David Baraff
+- **Oct 22 & 24**: Rigid-body simulation: Part 2 [(pdf)](notesd2.pdf) by David Baraff
+- **Oct 29 & 31**: Collision response and conclision rigid-body-collision-response.pptx
+  - Recommended [talk by David Baraff about resting contacts](https://www.youtube.com/watch?v=vNTHveVpDDc)
 
 ## Part 3: Game AI
 
