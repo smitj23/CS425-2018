@@ -24,7 +24,7 @@
 - **Oct 15 & 17**: Rigid-body simulation: Part 1 [(pdf)](notesd1.pdf) by David Baraff
   - Dissusion of [programming assignment 3](../assignments/PA03)
 - **Oct 22 & 24**: Rigid-body simulation: Part 2 [(pdf)](notesd2.pdf) by David Baraff
-  - Dissusion of [programming assignment 4](../assignments/PA04)
+  - Dissusion of [programming assignment 4](../assignments/PA4)
 - **Oct 29 & 31**: Collision response and conclision rigid-body-collision-response.pptx
   - Recommended [talk by David Baraff about resting contacts](https://www.youtube.com/watch?v=vNTHveVpDDc)
 
