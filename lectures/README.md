@@ -29,14 +29,14 @@
   - Recommended [talk by David Baraff about resting contacts](https://www.youtube.com/watch?v=vNTHveVpDDc)
 
 ## Part 3: Game AI
-- ** Nov 5 & 7 ** Navigation (e.g., Nav Mesh) & Path finding (A*, D*) [(pdf)](15-Pathfinding.pdf)
+- **Nov 5 & 7** Navigation (e.g., Nav Mesh) & Path finding (A*, D*) [(pdf)](15-Pathfinding.pdf)
   - Pathing http://www.gdcvault.com/play/1014514/AI-Navigation-It-s-Not 
-- ** Nov 12 & 14 **  Path planning, PRM, RRT, etc [(pdf)](16-PathPlanning.pdf)
-- ** Nov 19 & 26 **  Game AI, finite state machines, backward chaining, decision trees, behavior trees, etc, [(pdf)](17-AI.pdf)
+- **Nov 12 & 14**  Path planning, PRM, RRT, etc [(pdf)](16-PathPlanning.pdf)
+- **Nov 19 & 26**  Game AI, finite state machines, backward chaining, decision trees, behavior trees, etc, [(pdf)](17-AI.pdf)
   - Unity AI: https://youtu.be/bqsfkGbBU6k?t=222
   - Examples of behavior trees http://www.gdcvault.com/play/1012416/Behavior-Trees-Three-Ways-of 
-- ** Nov 28 ** Project progress report #2, Decision/Behavior trees practice [(pdf)](18-AI-practice.pptx)
-- ** Dec 3 & 5 ** Game AI Tools:
+- **Nov 28** Project progress report #2, Decision/Behavior trees practice [(pdf)](18-AI-practice.pptx)
+- **Dec 3 & 5** Game AI Tools:
   - Serpent AI: https://github.com/SerpentAI/SerpentAI
 
 
