@@ -38,6 +38,12 @@
 - **Nov 28** Project progress report #2, Decision/Behavior trees practice [(pdf)](18-AI-practice.pptx)
 - **Dec 3 & 5** Game AI Tools:
   - Serpent AI: https://github.com/SerpentAI/SerpentAI
+  - ELF: [Extensive, Lightweight, and Flexible platform for game research](https://code.fb.com/ml-applications/introducing-elf-an-extensive-lightweight-and-flexible-platform-for-game-research/)
+  - [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment)
+  
+## Part 4: Other
+- **Getting Noticed: Why You Need an Online Portfolio and How to Make One** by Jacob Minkoff
+  - https://www.youtube.com/watch?v=yxW0lq47mcE
 
 
 
