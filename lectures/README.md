@@ -53,6 +53,9 @@
     - generate Mario levels using DCGAN: [paper](https://arxiv.org/pdf/1805.00728.pdf), [video](https://www.youtube.com/watch?v=NObqDuPuk7Q)
     - generate Doom levels using GAN: [paper](https://arxiv.org/pdf/1804.09154.pdf), [video](https://www.youtube.com/watch?v=K32FZ-tjQP4)
   - Machine learning tools by Amazon for game developers (40 mins): https://www.gdcvault.com/browse/gdc-18/play/1024835
+    - image recognition to start
+    - loot drop starting at 14 min to 19 min.
+    - detecting inappropriate contents (images, text)
 ## Part 4: Other
 - **Getting Noticed: Why You Need an Online Portfolio and How to Make One** by Jacob Minkoff
   - https://www.youtube.com/watch?v=yxW0lq47mcE
