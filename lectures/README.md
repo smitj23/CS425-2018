@@ -39,18 +39,20 @@
   - Variants of behavior trees http://www.gdcvault.com/play/1012416/Behavior-Trees-Three-Ways-of 
 - **Nov 28** Project progress report #2, Decision/Behavior trees practice [(pdf)](18-AI-practice.pptx)
 - **Dec 3 & 5** Game AI Tools:
+  - [What Makes Good AI? by Game Maker's Toolkit](https://www.youtube.com/watch?v=9bbhJi0NBkk) (16 mins)
   - [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment)
     - Demo video: https://www.youtube.com/watch?v=nzUiEkasXZI
   - ELF: [Extensive, Lightweight, and Flexible platform for game research](https://code.fb.com/ml-applications/introducing-elf-an-extensive-lightweight-and-flexible-platform-for-game-research/)
     - github page: https://github.com/facebookresearch/elf
-    - talk: https://youtu.be/NaLAveYHQ_U?t=112
+    - talk (1 hr): https://youtu.be/NaLAveYHQ_U?t=112
     - Demo video: https://www.youtube.com/watch?v=NaLAveYHQ_U
   - Serpent AI: https://github.com/SerpentAI/SerpentAI
-    - Example: https://www.youtube.com/watch?v=hIFkdao0ELU&t=1s
-  - Deep learning for game developers https://www.youtube.com/watch?v=rF6Usm0tdhk
+    - Example (29 mins): https://www.youtube.com/watch?v=hIFkdao0ELU&t=1s
+  - Deep learning for game developers (49 mins): https://www.youtube.com/watch?v=rF6Usm0tdhk
   - Generative Adversarial Network for procedural content generation
     - generate Mario levels using DCGAN: [paper](https://arxiv.org/pdf/1805.00728.pdf), [video](https://www.youtube.com/watch?v=NObqDuPuk7Q)
     - generate Doom levels using GAN: [paper](https://arxiv.org/pdf/1804.09154.pdf), [video](https://www.youtube.com/watch?v=K32FZ-tjQP4)
+  - Machine learning tools by Amazon for game developers (40 mins): https://www.gdcvault.com/browse/gdc-18/play/1024835
 ## Part 4: Other
 - **Getting Noticed: Why You Need an Online Portfolio and How to Make One** by Jacob Minkoff
   - https://www.youtube.com/watch?v=yxW0lq47mcE
