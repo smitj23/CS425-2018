@@ -42,12 +42,14 @@
   - [What Makes Good AI? by Game Maker's Toolkit](https://www.youtube.com/watch?v=9bbhJi0NBkk) (16 mins)
   - [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment)
     - Demo video: https://www.youtube.com/watch?v=nzUiEkasXZI
+    - from DeepMind using Deep Q-learning https://www.youtube.com/watch?v=TmPfTpjtdgg
   - ELF: [Extensive, Lightweight, and Flexible platform for game research](https://code.fb.com/ml-applications/introducing-elf-an-extensive-lightweight-and-flexible-platform-for-game-research/)
     - github page: https://github.com/facebookresearch/elf
     - talk (1 hr): https://youtu.be/NaLAveYHQ_U?t=112
     - Demo video: https://www.youtube.com/watch?v=NaLAveYHQ_U
   - Serpent AI: https://github.com/SerpentAI/SerpentAI
     - Example (29 mins): https://www.youtube.com/watch?v=hIFkdao0ELU&t=1s
+  - StarCraft II Learning Environment by DeepMind & Blizzard (3 mins): https://www.youtube.com/watch?v=St5lxIxYGkI
   - Deep learning for game developers (49 mins): https://www.youtube.com/watch?v=rF6Usm0tdhk
   - Generative Adversarial Network for procedural content generation
     - generate Mario levels using DCGAN: [paper](https://arxiv.org/pdf/1805.00728.pdf), [video](https://www.youtube.com/watch?v=NObqDuPuk7Q)
