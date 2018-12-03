@@ -47,6 +47,10 @@
     - Demo video: https://www.youtube.com/watch?v=NaLAveYHQ_U
   - Serpent AI: https://github.com/SerpentAI/SerpentAI
     - Example: https://www.youtube.com/watch?v=hIFkdao0ELU&t=1s
+  - Deep learning for game developers https://www.youtube.com/watch?v=rF6Usm0tdhk
+  - Generative Adversarial Network for procedural content generation
+    - generate Mario levels using DCGAN: [paper](https://arxiv.org/pdf/1805.00728.pdf), [video](https://www.youtube.com/watch?v=NObqDuPuk7Q)
+    - generate Doom levels using GAN: [paper](https://arxiv.org/pdf/1804.09154.pdf), [video](https://www.youtube.com/watch?v=K32FZ-tjQP4)
 ## Part 4: Other
 - **Getting Noticed: Why You Need an Online Portfolio and How to Make One** by Jacob Minkoff
   - https://www.youtube.com/watch?v=yxW0lq47mcE
