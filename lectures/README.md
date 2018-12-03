@@ -34,6 +34,7 @@
 - **Nov 12 & 14**  Path planning, PRM, RRT, etc [(pdf)](16-PathPlanning.pdf)
 - **Nov 19 & 26**  Game AI, finite state machines, backward chaining, decision trees, behavior trees, etc, [(pdf)](17-AI.pdf)
   - Unity AI: https://youtu.be/bqsfkGbBU6k?t=222
+  - Unity Behavior tree: https://www.youtube.com/watch?v=T_of4_jRoJA
   - Examples of behavior trees http://www.gdcvault.com/play/1012416/Behavior-Trees-Three-Ways-of 
 - **Nov 28** Project progress report #2, Decision/Behavior trees practice [(pdf)](18-AI-practice.pptx)
 - **Dec 3 & 5** Game AI Tools:
