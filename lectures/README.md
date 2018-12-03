@@ -37,14 +37,14 @@
   - Examples of behavior trees http://www.gdcvault.com/play/1012416/Behavior-Trees-Three-Ways-of 
 - **Nov 28** Project progress report #2, Decision/Behavior trees practice [(pdf)](18-AI-practice.pptx)
 - **Dec 3 & 5** Game AI Tools:
-  - Serpent AI: https://github.com/SerpentAI/SerpentAI
   - [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment)
     - Demo video: https://www.youtube.com/watch?v=nzUiEkasXZI
   - ELF: [Extensive, Lightweight, and Flexible platform for game research](https://code.fb.com/ml-applications/introducing-elf-an-extensive-lightweight-and-flexible-platform-for-game-research/)
     - github page: https://github.com/facebookresearch/elf
     - talk: https://youtu.be/NaLAveYHQ_U?t=112
     - Demo video: https://www.youtube.com/watch?v=NaLAveYHQ_U
-  
+  - Serpent AI: https://github.com/SerpentAI/SerpentAI
+    - Example: https://www.youtube.com/watch?v=hIFkdao0ELU&t=1s
 ## Part 4: Other
 - **Getting Noticed: Why You Need an Online Portfolio and How to Make One** by Jacob Minkoff
   - https://www.youtube.com/watch?v=yxW0lq47mcE
